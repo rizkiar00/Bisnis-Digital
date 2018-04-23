@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	.navbar {
+		background-color: #6A5ACD;
+		height: 70px;
+	}
+
+	#profile {
+		height: 50px;
+		width: 50px;
+		border-radius: 100px;
+	}
+
+	#searchlogo {
+		height: 27px;
+		width: 27px;
+		margin-right: 9px;
+	}
+
+	#logo {
+		height: 48px;
+		width: 200px;
+	}
+
+	#menu {
+		text-align: center;
+	}
+
+	#konten {
+			
+	}
+
+	.ranking {
+		text-align: center;
+		width: 300px;
+		height: 500px;
+	}
+
+	#feedback {
+		margin-top: 10px;
+		text-align: left;
+	}
+
+	#load {
+		width: 100%;
+	}
+
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<body>
+	<div class="navbar fixed-top">
+		<div class="col-3"><img src="img/logo.png" id="logo"></div>
+		<div class="col-1" id="menu" style="font-size: 21px;"><u><b>RECENT</b></u></div>
+		<div class="col-1" id="menu"><u><b>HOT</b></u></div>
+		<div class="col-1" id="menu"><u><b>RANKING</b></u></div>
+		<div class="col-1"></div>
+		<div class="col-2"><img src="img/search.png" id="searchlogo"><input type="text" id="search" placeholder="Search.."></div>
+		<div class="col-1" style="text-align: right;"> <img src="img/profile.jpg" id="profile"></div>
+		<div class="col-1">
+			<button type="button" class="btn btn-primary">+ UPLOAD</button>
+		</div>
+		<div class="col-1" style="text-align: right;">
+			<button type="button" class="btn btn-primary">LOGOUT</button>
+		</div>
+	</div>
+	<div class="container" style="margin-top: 70px;">
+		<div class="row">
+			<br><br><br>
+		</div>
+		<div class="row">
+			<div class="col-2">
+				<div class="row"><img src="img/iklan2.gif"></div>
+				<br>
+				<div class="row"><img src="img/iklan3.jpg"></div>
+			</div>
+			<div class="col-6" id="konten">
+				<div class="row"><h2><u><a href="#" style="color : black;">Saat lu lagi ngerjain Tubes</a></u></h2></div>
+				<div class="row">Posted by : Lilly Bloomerchen</div>
+				<div class="row">School : SMK Komputer Bogor</div>
+				<br>
+				<div class="row"><img src="img/171.jpg"></div>
+				<div class="row" id="feedback">
+					<div class="col-2"><button type="button" class="btn btn-info">Upvote 4.412</button></div>
+					<div class="col-2"></div>
+					<div class="col-2"><button type="button" class="btn btn-info">Downvote 1.123</button></div>
+					<div class="col-2"></div>
+					<div class="col-2"><button type="button" class="btn btn-info">Comment 579</button></div>
+					<div class="col-2"></div>
+				</div>	
+				<br><br>
+				<h3>Comment</h3>
+				<hr>
+				<div class="row">
+					<div class="col-3"><b>Lily Lalu: </b></div>
+					<div class="col-9"> Widih Gila</div>
+				</div>
+				<div class="row">
+					<div class="col-3"><b>Nani Nana: </b></div>
+					<div class="col-9"> Mantep Cuy</div>
+				</div>
+
+			</div>
+			<div class="col-4">
+				<table class="ranking table-hover" border="1">
+					<tr style="background-color: aqua">
+						<th>RANK</th>
+						<th>NAMA SEKOLAH</th>
+						<th>POIN</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>SMAN 185 Bandung</td>
+						<td>1.876</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>SDN Gelap Jakarta</td>
+						<td>1.589</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>SMAN 461 Bogor</td>
+						<td>1.123</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>SMPN 162 Jogjakarta</td>
+						<td>945</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>SMK Perikanan Lembang</td>
+						<td>756</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>SMK Perhutanan Bali</td>
+						<td>684</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>SD Java Maluku</td>
+						<td>665</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>SMAN 486 Bandung</td>
+						<td>513</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>Gaming University NTB</td>
+						<td>423</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Institut Kedokteran Aceh</td>
+						<td>123</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
